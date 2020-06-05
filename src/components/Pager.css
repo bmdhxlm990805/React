@@ -1,0 +1,27 @@
+
+.item {
+    display: inline-block;
+    padding: 6px 10px;
+    margin: 2px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: rgb(19, 102, 180);
+    cursor: pointer;
+    user-select: none;   /*设置用户不能选择文本*/
+}
+.item.disabled {
+    color: #ccc;
+    cursor: not-allowed;
+}
+.current {
+    margin-left: 10px;
+}
+.item.active {
+    color: #f40;
+    border-color: #f40;
+}
+
+.pager{
+    text-align: center;
+    padding-top: 10px;
+}
