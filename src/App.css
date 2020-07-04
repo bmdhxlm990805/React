@@ -1,0 +1,17 @@
+.App-enter{
+    opacity: 0;
+}
+.App-enter-active{
+    opacity: 1;
+    transition: all 2s ;
+}
+.App-exit{
+    opacity: 1;
+}
+.App-exit-active{
+    opacity: 0;
+    transition: all 2s ;
+}
+.App-exit-done{
+    opacity: 0;
+}
